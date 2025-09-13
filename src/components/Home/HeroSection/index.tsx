@@ -17,7 +17,7 @@ const HeroSection = () => {
             <span className="w-2 h-2 bg-green-400 rounded-full mr-2 animate-pulse"></span>
             Trusted by 500+ Companies Worldwide
           </div>
-          <h1 className="text-5xl md:text-7xl font-black mb-8 bg-gradient-to-r from-white via-blue-100 to-indigo-200 bg-clip-text text-transparent leading-tight">
+          <h1 className="text-5xl md:text-7xl font-bold mb-8 bg-gradient-to-r from-white via-blue-100 to-indigo-200 bg-clip-text text-transparent leading-tight">
             Expert Financial Advisory Services
           </h1>
           <p className="text-xl md:text-2xl mb-12 text-blue-100 max-w-3xl mx-auto leading-relaxed">

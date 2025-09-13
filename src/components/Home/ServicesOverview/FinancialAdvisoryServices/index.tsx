@@ -3,7 +3,7 @@ import { advisoryServices } from "../../../../utils/const";
 const FinancialAdvisoryServices = () => {
   return (
     <div>
-      <h3 className="text-3xl font-bold text-gray-900 mb-12 text-center font-['Playfair_Display']">
+      <h3 className="text-3xl font-bold text-gray-900 mb-12 text-center">
         MKA Services
       </h3>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-5xl mx-auto">

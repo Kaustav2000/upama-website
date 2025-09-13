@@ -13,7 +13,7 @@ const ServicesOverview = () => {
             <span className="w-2 h-2 bg-blue-600 rounded-full mr-2"></span>
             Our Expertise
           </div>
-          <h2 className="text-4xl md:text-5xl font-black text-gray-900 mb-6 font-['Playfair_Display']">
+          <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
             Our Services
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
