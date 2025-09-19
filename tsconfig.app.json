@@ -23,5 +23,9 @@
     "noFallthroughCasesInSwitch": true,
     "noUncheckedSideEffectImports": true
   },
-  "include": ["src", "index.tsx", "src/components/Home/HeroSection"]
+  "include": [
+    "src",
+    "src/components/Navigation/index.tsx",
+    "src/components/Home/HeroSection"
+  ]
 }
