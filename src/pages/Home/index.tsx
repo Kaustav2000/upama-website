@@ -1,4 +1,4 @@
-import CTASection from "../../components/Home/CTASection";
+// import CTASection from "../../components/Home/CTASection";
 import HeroSection from "../../components/Home/HeroSection";
 import ServicesOverview from "../../components/Home/ServicesOverview";
 import WhyChooseUsSection from "../../components/Home/WhyChooseUsSection";
@@ -13,7 +13,7 @@ const HomePage = () => {
       {/* Why Choose Us */}
       <WhyChooseUsSection />
       {/* CTA Section */}
-      <CTASection />
+      {/* <CTASection /> */}
     </div>
   );
 };

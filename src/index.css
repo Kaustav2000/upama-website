@@ -38,6 +38,26 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+/* Prevent horizontal scroll globally */
+html,
+body,
+#root {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+/* Hide scrollbars while keeping vertical scroll */
+body,
+#root {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+body::-webkit-scrollbar,
+#root::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+}
+
 a {
   font-weight: 500;
   color: var(--primary);

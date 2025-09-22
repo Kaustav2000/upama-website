@@ -2,13 +2,13 @@ const WhyChooseUsSection = () => {
   return (
     <section
       className="py-20 w-full"
-      style={{ backgroundColor: "var(--light)" }}
+      style={{ backgroundColor: "var(--primary-dark)" }}
     >
       <div className="w-full px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h2
             className="text-3xl md:text-4xl font-bold mb-4"
-            style={{ color: "var(--dark)" }}
+            style={{ color: "var(--white)" }}
           >
             Why Choose Upama Financial?
           </h2>
@@ -23,11 +23,11 @@ const WhyChooseUsSection = () => {
             </div>
             <h3
               className="text-xl font-semibold mb-2"
-              style={{ color: "var(--dark)" }}
+              style={{ color: "var(--white)" }}
             >
               Expertise
             </h3>
-            <p style={{ color: "var(--gray-dark)" }}>
+            <p style={{ color: "var(--white)" }}>
               Deep industry knowledge and proven track record in financial
               advisory
             </p>
@@ -41,11 +41,11 @@ const WhyChooseUsSection = () => {
             </div>
             <h3
               className="text-xl font-semibold mb-2"
-              style={{ color: "var(--dark)" }}
+              style={{ color: "var(--white)" }}
             >
               Efficiency
             </h3>
-            <p style={{ color: "var(--gray-dark)" }}>
+            <p style={{ color: "var(--white)" }}>
               Streamlined processes and quick turnaround times for all services
             </p>
           </div>
@@ -58,11 +58,11 @@ const WhyChooseUsSection = () => {
             </div>
             <h3
               className="text-xl font-semibold mb-2"
-              style={{ color: "var(--dark)" }}
+              style={{ color: "var(--white)" }}
             >
               Partnership
             </h3>
-            <p style={{ color: "var(--gray-dark)" }}>
+            <p style={{ color: "var(--white)" }}>
               Long-term relationships built on trust and mutual success
             </p>
           </div>
