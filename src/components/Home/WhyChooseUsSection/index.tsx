@@ -10,7 +10,7 @@ const WhyChooseUsSection = () => {
             className="text-3xl md:text-4xl font-bold mb-4"
             style={{ color: "var(--white)" }}
           >
-            Why Choose Upama Financial?
+            Why Choose Finnacle Advisors?
           </h2>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">

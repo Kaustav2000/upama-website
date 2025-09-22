@@ -22,7 +22,7 @@ const Navigation = () => {
             <Link to="/" className="flex-shrink-0 group">
               <img
                 src={companyLogo}
-                alt="Upama Financial"
+                alt="Finnacle Advisors"
                 className="h-24 w-auto object-contain"
               />
             </Link>

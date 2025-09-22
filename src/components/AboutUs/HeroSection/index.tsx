@@ -77,7 +77,7 @@ const AboutUsHeroSection = () => {
             About Our Company
           </div>
           <h1 className="text-5xl md:text-7xl font-bold mb-8 bg-gradient-to-r from-white via-blue-100 to-indigo-200 bg-clip-text text-transparent leading-tight">
-            About Upama Financial
+            About Finnacle Advisors
           </h1>
           <p
             className="text-xl md:text-2xl mb-8 max-w-3xl mx-auto leading-relaxed"

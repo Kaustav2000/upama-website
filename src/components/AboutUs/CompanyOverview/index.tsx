@@ -37,7 +37,7 @@ const CompanyOverview = () => {
                 style={{ color: "var(--gray-dark)" }}
               >
                 Founded with a vision to democratize access to sophisticated
-                financial advisory services, Upama Financial has grown into a
+                financial advisory services, Finnacle Advisors has grown into a
                 leading boutique advisory firm specializing in fundraising and
                 strategic financial guidance.
               </p>
