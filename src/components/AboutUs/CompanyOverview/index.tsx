@@ -84,10 +84,10 @@ const CompanyOverview = () => {
                   }}
                 ></div>
                 <span
-                  className="font-medium text-lg transition-colors"
+                  className="font-medium text-lg transition-colors "
                   style={{
                     color: "var(--gray-dark)",
-                    "--hover-color": "var(--primary)",
+                    // "--hover-color": "var(--primary)",
                   }}
                 >
                   Fundraising across all stages
@@ -104,7 +104,7 @@ const CompanyOverview = () => {
                   className="font-medium text-lg transition-colors"
                   style={{
                     color: "var(--gray-dark)",
-                    "--hover-color": "var(--primary)",
+                    // "--hover-color": "var(--primary)",
                   }}
                 >
                   M&A advisory and execution
@@ -121,7 +121,7 @@ const CompanyOverview = () => {
                   className="font-medium text-lg transition-colors"
                   style={{
                     color: "var(--gray-dark)",
-                    "--hover-color": "var(--primary)",
+                    // "--hover-color": "var(--primary)",
                   }}
                 >
                   Strategic financial planning
@@ -138,7 +138,7 @@ const CompanyOverview = () => {
                   className="font-medium text-lg transition-colors"
                   style={{
                     color: "var(--gray-dark)",
-                    "--hover-color": "var(--primary)",
+                    // "--hover-color": "var(--primary)",
                   }}
                 >
                   Capital structure optimization
@@ -155,7 +155,7 @@ const CompanyOverview = () => {
                   className="font-medium text-lg transition-colors"
                   style={{
                     color: "var(--gray-dark)",
-                    "--hover-color": "var(--primary)",
+                    // "--hover-color": "var(--primary)",
                   }}
                 >
                   Market analysis and valuation
