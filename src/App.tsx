@@ -7,7 +7,10 @@ import "./App.css";
 
 function App() {
   return (
-    <div className="flex justify-center items-center"> Page disabled for</div>
+    <div className="flex justify-center items-center">
+      {" "}
+      Page disabled for now
+    </div>
   );
   return (
     <Router>
