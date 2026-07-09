@@ -7,6 +7,9 @@ import "./App.css";
 
 function App() {
   return (
+    <div className="flex justify-center items-center"> Page disabled for</div>
+  );
+  return (
     <Router>
       <div className="min-h-screen min-w-screen bg-gray-50 w-full flex flex-col">
         <Navigation />
