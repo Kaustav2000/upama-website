@@ -7,7 +7,7 @@ const FinancialAdvisoryServices = () => {
         className="text-3xl font-bold mb-12 text-center"
         style={{ color: "var(--dark)" }}
       >
-        MKA Services
+        M&A Services
       </h3>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-5xl mx-auto">
         {advisoryServices.map((service, index) => (

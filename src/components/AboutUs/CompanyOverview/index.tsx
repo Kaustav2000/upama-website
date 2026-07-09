@@ -1,3 +1,5 @@
+type CSSWithHoverColor = React.CSSProperties & Record<"--hover-color", string>;
+
 const CompanyOverview = () => {
   return (
     <section
@@ -84,11 +86,13 @@ const CompanyOverview = () => {
                   }}
                 ></div>
                 <span
-                  className="font-medium text-lg transition-colors "
-                  style={{
-                    color: "var(--gray-dark)",
-                    // "--hover-color": "var(--primary)",
-                  }}
+                  className="font-medium text-lg transition-colors"
+                  style={
+                    {
+                      color: "var(--gray-dark)",
+                      "--hover-color": "var(--primary)",
+                    } as CSSWithHoverColor
+                  }
                 >
                   Fundraising across all stages
                 </span>
@@ -102,10 +106,12 @@ const CompanyOverview = () => {
                 ></div>
                 <span
                   className="font-medium text-lg transition-colors"
-                  style={{
-                    color: "var(--gray-dark)",
-                    // "--hover-color": "var(--primary)",
-                  }}
+                  style={
+                    {
+                      color: "var(--gray-dark)",
+                      "--hover-color": "var(--primary)",
+                    } as CSSWithHoverColor
+                  }
                 >
                   M&A advisory and execution
                 </span>
@@ -119,10 +125,12 @@ const CompanyOverview = () => {
                 ></div>
                 <span
                   className="font-medium text-lg transition-colors"
-                  style={{
-                    color: "var(--gray-dark)",
-                    // "--hover-color": "var(--primary)",
-                  }}
+                  style={
+                    {
+                      color: "var(--gray-dark)",
+                      "--hover-color": "var(--primary)",
+                    } as CSSWithHoverColor
+                  }
                 >
                   Strategic financial planning
                 </span>
@@ -136,10 +144,12 @@ const CompanyOverview = () => {
                 ></div>
                 <span
                   className="font-medium text-lg transition-colors"
-                  style={{
-                    color: "var(--gray-dark)",
-                    // "--hover-color": "var(--primary)",
-                  }}
+                  style={
+                    {
+                      color: "var(--gray-dark)",
+                      "--hover-color": "var(--primary)",
+                    } as CSSWithHoverColor
+                  }
                 >
                   Capital structure optimization
                 </span>
@@ -153,10 +163,12 @@ const CompanyOverview = () => {
                 ></div>
                 <span
                   className="font-medium text-lg transition-colors"
-                  style={{
-                    color: "var(--gray-dark)",
-                    // "--hover-color": "var(--primary)",
-                  }}
+                  style={
+                    {
+                      color: "var(--gray-dark)",
+                      "--hover-color": "var(--primary)",
+                    } as CSSWithHoverColor
+                  }
                 >
                   Market analysis and valuation
                 </span>
